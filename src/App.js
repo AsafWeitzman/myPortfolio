@@ -1,8 +1,11 @@
+import "./App.css";
+import CustomCursor from "./components/CustomCursor";
+
 function App() {
   return (
-    <div>
-      <h1>Hello world!</h1>
-    </div>
+    <>
+      <CustomCursor />
+    </>
   );
 }
 
